@@ -1,0 +1,39 @@
+package com.amazon.testPages.HomePageTest;
+
+import com.amazon.pages.HomePageNew;
+import configuration.common.WebTestBase;
+import org.testng.annotations.Ignore;
+import org.testng.annotations.Test;
+
+import static configuration.common.GlobalReUsableMethods.scrollDownToElement;
+import static configuration.common.GlobalReUsableMethods.verifyText;
+
+public class HomePageNewTest extends WebTestBase {
+
+
+
+    @Test @Ignore
+    public void verifySearchValidProduct(){
+        HomePageNew homePageNew=new HomePageNew();
+        homePageNew.searchValidProduct("tide pods");
+        verifyText(homePageNew.verifySearchProduct,"\"tide pods\"","Product name does not match");
+
+    }
+    @Test
+    public void verifySofasWebElement() throws InterruptedException {
+        HomePageNew homePageNew=new HomePageNew();
+        homePageNew.sofaAndCouchesProduct();
+
+        verifyText(homePageNew.verifySofaAndCouches,"Sofas & Couches","Product name does not match");
+
+    }
+
+
+
+
+
+
+
+
+
+}
