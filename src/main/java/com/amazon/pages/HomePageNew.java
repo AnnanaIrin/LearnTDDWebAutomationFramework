@@ -24,10 +24,12 @@ public class HomePageNew extends WebTestBase {
     public WebElement verifySearchProduct;
 
    //Search product
-    public void searchValidProduct(String productName){
+    public void searchValidProduct(String productName) throws InterruptedException {
         //searchBox.sendKeys();
         enterValueOnElement(searchBox,productName);
+        waitFor(5);
         clickOnElement(searchButton);
+        waitFor(5);
     }
 
     //Valid Sofa and Couches

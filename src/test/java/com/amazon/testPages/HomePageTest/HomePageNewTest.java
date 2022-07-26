@@ -12,8 +12,8 @@ public class HomePageNewTest extends WebTestBase {
 
 
 
-    @Test @Ignore
-    public void verifySearchValidProduct(){
+    @Test
+    public void verifySearchValidProduct() throws InterruptedException {
         HomePageNew homePageNew=new HomePageNew();
         homePageNew.searchValidProduct("tide pods");
         verifyText(homePageNew.verifySearchProduct,"\"tide pods\"","Product name does not match");
