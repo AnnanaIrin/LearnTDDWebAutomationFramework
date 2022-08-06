@@ -15,7 +15,7 @@ public class HomePageNew extends WebTestBase {
     }
 
 
-
+    //Search Box #1
     @FindBy(xpath = searchBoxWebElement)
     public WebElement searchBox;
     @FindBy(xpath =searchButtonWebElement)
@@ -23,7 +23,7 @@ public class HomePageNew extends WebTestBase {
     @FindBy(xpath =verifySearchProductWebElement)
     public WebElement verifySearchProduct;
 
-   //Search product
+
     public void searchValidProduct(String productName) throws InterruptedException {
         //searchBox.sendKeys();
         enterValueOnElement(searchBox,productName);
@@ -32,7 +32,7 @@ public class HomePageNew extends WebTestBase {
         waitFor(5);
     }
 
-    //Valid Sofa and Couches
+    //Valid Sofa and Couches #2
     @FindBy(xpath =homeButtonWebElement)
     public WebElement homeButton;
     @FindBy(xpath =furnitureWebElement)
@@ -58,11 +58,6 @@ public class HomePageNew extends WebTestBase {
         scrollDownToElement(verifySofaAndCouches);
         waitFor(5);
     }
-
-
-
-
-
 
 
 

@@ -11,14 +11,15 @@ import static configuration.common.GlobalReUsableMethods.verifyText;
 public class HomePageNewTest extends WebTestBase {
 
 
-
-    @Test
+    //1
+    @Test @Ignore
     public void verifySearchValidProduct() throws InterruptedException {
         HomePageNew homePageNew=new HomePageNew();
         homePageNew.searchValidProduct("tide pods");
         verifyText(homePageNew.verifySearchProduct,"\"tide pods\"","Product name does not match");
 
     }
+    //2
     @Test
     public void verifySofasWebElement() throws InterruptedException {
         HomePageNew homePageNew=new HomePageNew();
@@ -27,10 +28,6 @@ public class HomePageNewTest extends WebTestBase {
         verifyText(homePageNew.verifySofaAndCouches,"Sofas & Couches","Product name does not match");
 
     }
-
-
-
-
 
 
 
