@@ -12,7 +12,7 @@ public class HomePageNewTest extends WebTestBase {
 
 
     //1
-    @Test @Ignore
+    @Test
     public void verifySearchValidProduct() throws InterruptedException {
         HomePageNew homePageNew=new HomePageNew();
         homePageNew.searchValidProduct("tide pods");

@@ -11,16 +11,16 @@
       <![CDATA[Url : https://www.amazon.com/]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-07-26T15:14:15 EDT" name="Amazon Test Suite" finished-at="2022-07-26T15:14:22 EDT" duration-ms="7339">
+  <suite started-at="2022-08-06T11:03:57 EDT" name="Amazon Test Suite" finished-at="2022-08-06T11:04:28 EDT" duration-ms="31186">
     <groups>
     </groups>
-    <test started-at="2022-07-26T15:14:15 EDT" name="Amazon web Automation" finished-at="2022-07-26T15:14:22 EDT" duration-ms="7339">
+    <test started-at="2022-08-06T11:03:57 EDT" name="Amazon web Automation" finished-at="2022-08-06T11:04:28 EDT" duration-ms="31186">
       <class name="com.amazon.testPages.HomePageTest.HomePageNewTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-07-26T15:14:15 EDT" name="extentSetup" finished-at="2022-07-26T15:14:15 EDT" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-08-06T11:03:57 EDT" name="extentSetup" finished-at="2022-08-06T11:03:57 EDT" duration-ms="110" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5a50d9fc]]>
+                <![CDATA[org.testng.TestRunner@5f95f1e1]]>
               </value>
             </param>
           </params>
@@ -30,7 +30,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-07-26T15:14:15 EDT" name="setUp" finished-at="2022-07-26T15:14:19 EDT" duration-ms="4064" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-08-06T11:03:57 EDT" name="setUp" finished-at="2022-08-06T11:04:00 EDT" duration-ms="3337" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,41 +77,41 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpAutomation()[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-07-26T15:14:15 EDT" name="setUpAutomation" finished-at="2022-07-26T15:14:15 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpAutomation()[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-08-06T11:03:57 EDT" name="setUpAutomation" finished-at="2022-08-06T11:03:57 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpAutomation -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-07-26T15:14:19 EDT" name="startExtent" finished-at="2022-07-26T15:14:19 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-08-06T11:04:00 EDT" name="startExtent" finished-at="2022-08-06T11:04:00 EDT" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.amazon.testPages.HomePageTest.HomePageNewTest.verifySearchValidProduct()]]>
+                <![CDATA[public void com.amazon.testPages.HomePageTest.HomePageNewTest.verifySofasWebElement() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="verifySearchValidProduct()[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-07-26T15:14:19 EDT" name="verifySearchValidProduct" finished-at="2022-07-26T15:14:22 EDT" duration-ms="2514" status="PASS">
+        <test-method signature="verifySofasWebElement()[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-08-06T11:04:00 EDT" name="verifySofasWebElement" finished-at="2022-08-06T11:04:27 EDT" duration-ms="27065" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchValidProduct -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-07-26T15:14:22 EDT" name="afterEachTestMethod" finished-at="2022-07-26T15:14:22 EDT" duration-ms="144" status="PASS">
+        </test-method> <!-- verifySofasWebElement -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-08-06T11:04:27 EDT" name="afterEachTestMethod" finished-at="2022-08-06T11:04:28 EDT" duration-ms="153" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySearchValidProduct status=SUCCESS method=HomePageNewTest.verifySearchValidProduct()[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936] output={null}]]]>
+                <![CDATA[[TestResult name=verifySofasWebElement status=SUCCESS method=HomePageNewTest.verifySofasWebElement()[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="tearDownAutomation()[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-07-26T15:14:22 EDT" name="tearDownAutomation" finished-at="2022-07-26T15:14:22 EDT" duration-ms="596" status="PASS">
+        <test-method is-config="true" signature="tearDownAutomation()[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-08-06T11:04:28 EDT" name="tearDownAutomation" finished-at="2022-08-06T11:04:28 EDT" duration-ms="611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAutomation -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-07-26T15:14:22 EDT" name="generateReport" finished-at="2022-07-26T15:14:22 EDT" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.amazon.testPages.HomePageTest.HomePageNewTest@18271936]" started-at="2022-08-06T11:04:28 EDT" name="generateReport" finished-at="2022-08-06T11:04:28 EDT" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
